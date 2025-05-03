@@ -1,0 +1,7 @@
+# PostgreSQL load testing dependencies
+locust>=2.15.0
+psycopg2-binary>=2.9.5
+azure-identity>=1.13.0
+azure-keyvault-secrets>=4.7.0
+python-dotenv>=1.0.0
+retry>=0.9.2
