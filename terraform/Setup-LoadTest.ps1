@@ -50,8 +50,8 @@ if (-Not $TestExists) {
         --autostop-error-rate $ERROR_PERCENTAGE `
         --autostop-time-window $TIME_WINDOW `
         --autostop enable `
-        --test-type "JMX" `
-        --test-plan $SCRIPT_PATH `
+        --test-type "Locust" `
+        --test-plan "../load_test_artifacts/locust_pg_test.py" `
         --engine-instances $ENGINE_INSTANCES `
         --engine-ref-id-type SystemAssigned `
         --keyvault-reference-id $USER_ASSIGNED_IDENTITY_RESOURCE_NAME `
